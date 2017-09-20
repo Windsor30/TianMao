@@ -2,7 +2,7 @@
 * @Author: Windsor
 * @Date:   2017-08-20 21:49:30
 * @Last Modified by:   Windsor
-* @Last Modified time: 2017-09-20 11:40:07
+* @Last Modified time: 2017-09-20 16:06:09
 */
 @import url('base.css');
 img{
@@ -194,14 +194,18 @@ header{
 	height: 499px;
 	margin: 0 auto;
 	position: relative;
+	overflow: hidden;
 }
 .banner li{
 	width: 1230px;
 	height: 499px;
 	margin: 0 auto;
 	position: absolute;
-	left: 0;
+	left: 100%;
 	top: 0;
+}
+.banner li:first-child{
+	left: 0;
 }
 /* .bannerimg{
 	display: none;
